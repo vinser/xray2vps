@@ -99,11 +99,6 @@
 export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-tcp-xray | bash
 ```
 
-*(Если ваш репозиторий на GitHub назван `hray2vps`, используйте соответствующий URL)*:
-```bash
-export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/hray2vps/refs/heads/main/install-tcp-xray | bash
-```
-
 ---
 
 ### Вариант 2: Установка VLESS + XHTTP + REALITY (`install-xhttp-xray`)
@@ -114,24 +109,14 @@ export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/
 export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-xhttp-xray | bash
 ```
 
-*(Для репозитория `hray2vps`)*:
-```bash
-export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/hray2vps/refs/heads/main/install-xhttp-xray | bash
-```
-
 ---
 
 ### Вариант 3: Установка VLESS + TCP + TLS Self-Steal (`install-self-steal-xray`)
 
-Предварительно направьте DNS A-запись вашего домена на IP-адрес VPS. Замените `my-domain.com` на **ваш реальный домен**:
+Предварительно направьте DNS A-запись вашего домена на IP-адрес VPS. Замените `your-domain.com` на **ваш реальный домен**:
 
 ```bash
-export domain=my-domain.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-self-steal-xray | bash
-```
-
-*(Для репозитория `hray2vps`)*:
-```bash
-export domain=my-domain.com && wget -qO- https://raw.githubusercontent.com/vinser/hray2vps/refs/heads/main/install-self-steal-xray | bash
+export domain=your-domain.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-self-steal-xray | bash
 ```
 
 ---
