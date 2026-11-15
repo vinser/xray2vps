@@ -96,7 +96,7 @@
 Замените `example.com` на выбранный SNI-домен для маскировки:
 
 ```bash
-export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-tcp-xray | bash
+export domain=example.com && wget -qO- https://github.com/vinser/xray2vps/raw/refs/heads/master/install-tcp-xray | bash
 ```
 
 ---
@@ -106,7 +106,7 @@ export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/
 Замените `example.com` на выбранный SNI-домен для маскировки:
 
 ```bash
-export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-xhttp-xray | bash
+export domain=example.com && wget -qO- https://github.com/vinser/xray2vps/raw/refs/heads/master/install-xhttp-xray | bash
 ```
 
 ---
@@ -116,7 +116,7 @@ export domain=example.com && wget -qO- https://raw.githubusercontent.com/vinser/
 Предварительно направьте DNS A-запись вашего домена на IP-адрес VPS. Замените `your-domain.com` на **ваш реальный домен**:
 
 ```bash
-export domain=your-domain.com && wget -qO- https://raw.githubusercontent.com/vinser/xray2vps/refs/heads/main/install-self-steal-xray | bash
+export domain=your-domain.com && wget -qO- https://github.com/vinser/xray2vps/raw/refs/heads/master/install-self-steal-xray | bash
 ```
 
 ---
